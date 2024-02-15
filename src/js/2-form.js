@@ -8,7 +8,7 @@ form.addEventListener('submit', onFormSubmit);
 
 let dataForm = JSON.parse(localStorage.getItem(FORM_KEY)) || {};
 const { email, message } = form.elements;
-reloadPage();
+
 
 function onInputData(event) {
   dataForm = { email: email.value, message: message.value };
@@ -21,6 +21,8 @@ function reloadPage() {
     message.value = dataForm.message || '';
   }
 }
+
+reloadPage();
 
 function onFormSubmit(event) {
   event.preventDefault();
