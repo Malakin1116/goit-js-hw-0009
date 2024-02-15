@@ -1,0 +1,1 @@
+.gallery{display:flex;justify-content:center;text-align:center;flex-wrap:wrap;list-style:none;gap:24px;padding:0;margin-top:24px}.gallery-image{object-fit:cover;width:360px;height:200px}.modal-image{object-fit:cover}.simple-lightbox-overlay{background-color:#2e2f42cc}
