@@ -36,3 +36,6 @@ function onFormSubmit(event) {
   event.currentTarget.reset();
   dataForm = {};
 }
+
+
+// варіант 2 як на уроці  
